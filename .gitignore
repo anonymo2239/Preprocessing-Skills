@@ -1,0 +1,32 @@
+# Bytecode dosyaları
+__pycache__/
+*.py[cod]
+
+# Sanal ortam klasörü
+.venv/
+env/
+venv/
+
+# Jupyter notebook checkpoint'leri
+.ipynb_checkpoints/
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log dosyaları
+*.log
+
+# Çeşitli geçici veya gizli dosyalar
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# Paket yönetim dosyaları
+poetry.lock
+*.egg-info/
+dist/
+build/
