@@ -10,6 +10,7 @@ dependencies = [
     "pyarrow>=21.0.0",
     "pydantic>=2.11.7",
     "pytest-cov>=6.2.1",
+    "pyyaml>=6.0.2",
     "scikit-learn>=1.7.1",
 ]
 
