@@ -1,6 +1,6 @@
 import yaml
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field # “Bu verinin şekli böyle olmalı” diye kurallar koyan sınıf. 
 from typing import List, Optional
 
 
