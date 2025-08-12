@@ -1,8 +1,13 @@
-import importlib # Kod içinde başka modülleri/dosyaları çağırmaya yarar.
+import importlib  # Kod içinde başka modülleri/dosyaları çağırmaya yarar.
 
-from sklearn.pipeline import Pipeline # İş adımlarını sıraya dizen bir “yürüyen bant”.
-from sklearn.base import BaseEstimator, TransformerMixin # SKlearn dönüşüm şablonları için temel sınıflar.
-from sklearn.compose import ColumnTransformer # Farklı sütunlara farklı işlemler yapabilen araç.
+from sklearn.pipeline import Pipeline  # İş adımlarını sıraya dizen bir “yürüyen bant”.
+from sklearn.base import (
+    BaseEstimator,
+    TransformerMixin,
+)  # SKlearn dönüşüm şablonları için temel sınıflar.
+from sklearn.compose import (
+    ColumnTransformer,
+)  # Farklı sütunlara farklı işlemler yapabilen araç.
 
 from .load_config import PreprocessorConfig
 
