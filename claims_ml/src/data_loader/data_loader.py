@@ -32,7 +32,7 @@ class DataLoader:
             ValueError: If the file extension is not supported or if the file is empty.
         """
 
-        # input check 
+        # input check
         self._validate_file_path(file_path)
         ext = self._check_if_file_extension_supported(file_path)
 
